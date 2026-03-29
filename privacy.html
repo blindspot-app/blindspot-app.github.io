@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blindspot — Privacy Policy</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      padding: 48px 24px;
+      max-width: 680px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+    .logo {
+      font-family: 'SF Mono', 'Menlo', monospace;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      margin-bottom: 8px;
+    }
+    .logo span { background: #fff; color: #000; padding: 2px 8px; border-radius: 2px; }
+    .updated { font-size: 12px; color: #555; margin-bottom: 40px; font-family: monospace; }
+    h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+    h2 { font-size: 15px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+         color: #888; margin: 32px 0 10px; }
+    p  { font-size: 14px; color: #bbb; margin-bottom: 12px; }
+    ul { font-size: 14px; color: #bbb; padding-left: 20px; margin-bottom: 12px; }
+    li { margin-bottom: 6px; }
+    strong { color: #e0e0e0; }
+    a { color: #6af; }
+    .tldr {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 6px;
+      padding: 20px 24px;
+      margin: 24px 0 40px;
+    }
+    .tldr p { color: #ccc; margin: 0; font-size: 14px; }
+    .tldr strong { color: #fff; font-size: 15px; display: block; margin-bottom: 8px; }
+    footer { margin-top: 60px; font-size: 12px; color: #444; font-family: monospace; }
+  </style>
+</head>
+<body>
+
+  <div class="logo"><span>▊ BLINDSPOT</span></div>
+  <div class="updated">// Privacy Policy — Last updated March 23, 2026</div>
+
+  <h1>We don't collect anything.</h1>
+
+  <div class="tldr">
+    <strong>Short version</strong>
+    <p>Blindspot runs entirely on your device. Your keywords stay on your device. We have no servers. We receive no data. There is nothing to sell, share, or lose in a breach.</p>
+  </div>
+
+  <h2>What we collect</h2>
+  <p><strong>Nothing.</strong> Blindspot has no backend, no analytics, no crash reporting, no telemetry, and no third-party SDKs. The extension is pure JavaScript running locally in Safari.</p>
+
+  <h2>Your data and where it lives</h2>
+  <p>The keywords you add, your topic preferences, your settings, and your usage stats are stored exclusively in <strong>browser.storage.sync</strong> — Apple's iCloud-backed local storage for Safari extensions. This data syncs between your own devices via your iCloud account. It never leaves your Apple ecosystem and is never accessible to us.</p>
+  <ul>
+    <li><strong>Keywords you add</strong> — stored locally/iCloud only</li>
+    <li><strong>Pro status</strong> — stored locally/iCloud only; verified via Apple's StoreKit</li>
+    <li><strong>Stats</strong> (articles blocked count) — stored locally/iCloud only, never transmitted</li>
+    <li><strong>Browsing activity</strong> — Blindspot reads page text to scan for keywords, but this data is processed in memory only and never stored or sent anywhere</li>
+  </ul>
+
+  <h2>In-App Purchase</h2>
+  <p>The optional $0.99 Pro upgrade is processed entirely by Apple's App Store and StoreKit. We never see your payment information, Apple ID, or any transaction details. Apple's purchase privacy policy applies: <a href="https://www.apple.com/legal/privacy/" target="_blank">apple.com/legal/privacy</a>.</p>
+
+  <h2>Permissions</h2>
+  <p>Blindspot requests access to <strong>all websites</strong> so it can scan page content for your keywords. This permission is used solely to blur content matching your keyword list. No page content is ever stored or transmitted.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>Blindspot does not collect data from anyone, including children under 13. The app is appropriate for all ages.</p>
+
+  <h2>Changes</h2>
+  <p>If we ever change this policy, we'll update the date above and note the change in the App Store release notes. Given that we collect nothing, there's not much to change.</p>
+
+  <h2>Contact</h2>
+  <p>Questions? Email us at <a href="mailto:privacy@getblindspot.app">privacy@getblindspot.app</a></p>
+
+  <footer>// blindspot © 2026 — getblindspot.app/privacy</footer>
+
+</body>
+</html>
